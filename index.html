@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
+    <meta name="Juices Drop" content="Service of juices delivery" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/2e9af526bb.js" crossorigin="anonymous"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Juices Drop</title>
 </head>
 
@@ -19,53 +19,57 @@
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a href="/" class="navbar-brand">Juices Drop</a>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target
-            ="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">   
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
 
-             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-        <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
-            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In/Sign Up</a></li>
-            <li class="nav-item dropdown">
-                <a  class="nav-link dropdown-toggle" href="#" id="navbarNavDropdownMenuLink" role="button" data-toggle="dropdown" 
-                 aria-haspopup="true" aria-expanded="false">
-                Our Juices</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Orange Juice</a>
-                    <a class="dropdown-item" href="#">Apple Juice</a>
-                    <a class="dropdown-item" href="#">Tomato Juice</a>
-                    <a class="dropdown-item" href="#">Pineapple Juice</a>
-                    <a class="dropdown-item" href="#">Mango Juice</a>
-                    <a class="dropdown-item" href="#">Grapefruit Juice</a>
-                    <a class="dropdown-item" href="#">Celery Juice</a>
-                    <a class="dropdown-item" href="#">Peach Juice</a>
-                    <a class="dropdown-item" href="#">Cherry Juice</a>
-                    <a class="dropdown-item" href="#">Apricot Juice</a>
-                    <a class="dropdown-item" href="#">Tamarind Juice</a>
-                </div>
-            </li>
-        </ul>
-    </div>
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In/Sign Up</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Our Juices</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Orange Juice</a>
+                        <a class="dropdown-item" href="#">Apple Juice</a>
+                        <a class="dropdown-item" href="#">Tomato Juice</a>
+                        <a class="dropdown-item" href="#">Pineapple Juice</a>
+                        <a class="dropdown-item" href="#">Mango Juice</a>
+                        <a class="dropdown-item" href="#">Grapefruit Juice</a>
+                        <a class="dropdown-item" href="#">Celery Juice</a>
+                        <a class="dropdown-item" href="#">Peach Juice</a>
+                        <a class="dropdown-item" href="#">Cherry Juice</a>
+                        <a class="dropdown-item" href="#">Apricot Juice</a>
+                        <a class="dropdown-item" href="#">Tamarind Juice</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2"><i>Great Juices delivered to your door!</i></p>
             <a href="/login">Sign In /Sign Up</a>
         </div>
     </nav>
-    <article class="container mt-3">
+   <!-- <div class="container alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning">
-                    <strong>Sale now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!</a>
+                    <strong>Sale now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6!
+                    <a href="">See here for details!</a>
                 </div>
             </div>
         </div>
+    </div>
+    -->
+    <div class="container-fluid callout-container">
         <!-- Callout -->
         <div class="row">
             <section class="callout jumbotron text-center">
-                <h1>The finest juices delivered to your doorstep</h1>
+                <h1 class="jumbotron-header">The finest juices delivered to your doorstep</h1>
                 <p class="lead"><b>Sign up today to start </b> receiving <i>the world's best juices </i>every month.
                     <s class="d-none d-sm-inline">$19.99 </s>
                     <span class="d-inline d-sm-none"><br></span>
@@ -75,9 +79,11 @@
             </section>
         </div>
         <!-- /.callout -->
-        <hr>
+    </div>
+</div>
 
-        <!-- Quotes -->
+    <!-- Quotes -->
+    <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -92,8 +98,10 @@
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>I've been introduced to more than 10 great international juices I never knew about.</p>
-                                <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite></footer>
+                                <p>I've been introduced to more than 10 great international juices I never knew about.
+                                </p>
+                                <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite>
+                                </footer>
                             </blockquote>
                         </div>
                     </div>
@@ -106,16 +114,19 @@
                         <div class="media-body">
                             <blockquote class="blockquote">
                                 <p>I haven't been thirsty for months!</p>
-                                <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite></footer>
+                                <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite>
+                                </footer>
                             </blockquote>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- /.quotes -->
-        <hr>
-        <!-- Favorites -->
+    </div>
+    <!-- /.quotes -->
+    <hr>
+    <!-- Favorites -->
+    <div class="favorites-container">
         <section class="favorites">
             <h2 class="text-uppercase">Monthly Favorites:</h2>
             <table class="table table-sm">
@@ -145,101 +156,113 @@
                     </tr>
                 </tbody>
             </table>
-            <!-- /.favorites -->
-            <hr>
-            <!-- Features -->
-            <section class="features">
-                <div class="row">
-                    <div class="col-12 my-5">
-                        <h2 class="text-uppercase">Features:</h2>
+    </div>
+    <!-- /.favorites -->
+    <hr>
+    <!-- Features -->
+    <div class="features-container">
+        <section class="features">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase">Features:</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature ">
+                        <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span
+                                class="badge badge-success">New!</span>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt
+                            ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris
+                            nisi
+                            ut
+                            aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="feature ">
-                            <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i>  Feature 1 <span class="badge badge-success">New!</span>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt
-                                ut
-                                labore
-                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris
-                                nisi
-                                ut
-                                aliquip ex ea commodo consequat.</p>
-                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="feature">
-                            <h3><i class="fa-regular fa-clock d-none d-sm-inline"></i>  Feature 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt
-                                ut
-                                labore
-                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris
-                                nisi
-                                ut
-                                aliquip ex ea commodo consequat.</p>
-                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                        </div>
-                    </div>
-                    <div class="col-12 d-md-none d-lg-block col-lg-4">
-                        <div class="feature">
-                            <h3><i class="fa-regular fa-credit-card d-none d-sm-inline"></i>  Feature 3</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt
-                                ut
-                                labore
-                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris
-                                nisi
-                                ut
-                                aliquip ex ea commodo consequat.</p>
-                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                        </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fa-regular fa-clock d-none d-sm-inline"></i> Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt
+                            ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris
+                            nisi
+                            ut
+                            aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                     </div>
                 </div>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fa-regular fa-credit-card d-none d-sm-inline"></i> Feature 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt
+                            ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris
+                            nisi
+                            ut
+                            aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- /.features -->
 
-            </section>
-            <!-- /.features -->
-    </article>
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Sign Up to Juices Drop!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up to Juices Drop!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for=" password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="repeatPassword" class="form-control" id="repeatPassword"
+                                placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                      <label for=" password">Password</label>
-                      <input type="password" class="form-control" id="password" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                        <label for="repeatPassword">Repeat Password</label>
-                        <input type="repeatPassword" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-                      </div>
-                    <button type="submit" class="btn btn-success">Submit</button>
-                  </form>
-            </div>
-          </div>
         </div>
-      </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

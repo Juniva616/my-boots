@@ -1,1 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+    
+    background: url("../css/images/bg-glass.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotes-container {}
+
+.favorites-container {}
+
+.features-container {}
+
+/*  Jumbotron */
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
 
