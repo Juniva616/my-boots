@@ -1,3 +1,7 @@
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+This is the Code Institute learning project to explain students how to use Bootstrap for creating fron-end sites.
+
+
 # Juices Drop
 
 'Juices Drop' responsive landing page is a mini-project built using the Frontend Development tutorials provided as part of the Code Institute curriculum.
